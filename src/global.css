@@ -1,0 +1,186 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --bg-base-color:#000aaa;
+}
+body{
+    background-color: #efefef;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#nav-block{
+    width: 100%;
+    background-color: var(--bg-base-color);
+    color: #fff;
+    height: 70px;
+}
+#nav-block>article{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: inherit;
+    width: 90%;
+    margin: 0 auto;
+}
+.logo-block a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    font-size: larger;
+    letter-spacing: 1.5px;
+}
+.menu-block ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+.menu-block ul a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+}
+.emp-form table{
+    width: 40%;
+    height: 60vh;
+    margin: 10px auto;
+}
+.emp-form h2{
+    font-size: xx-large;
+}
+.emp-form table td th{
+    padding: 10px;
+}
+.emp-form table .form-control,select{
+    width: 100%;
+    padding: 5px;
+    height: 6vh;
+    border: 1px solid #eee;
+    border-radius: 5px;
+}
+.emp-form table input{
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #eee;
+}
+.emp-form table button{
+    width: 40%;
+    padding: 10px 10px;
+    color: #fff;
+    background-color: var(--bg-base-color);
+    border: none;
+    border-radius: 5px;
+    transition: all 0.2s ease-in-out;
+}
+.emp-form table button:hover{
+    background-color: #eee;
+    transform: scale(0.95);
+    color: var(--bg-base-color);
+    border: 1px solid #000aaa;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+.emp-form table label{
+    color: var(--bg-base-color);
+    font-weight: 700;
+    font-size: large;
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+}
+.emp-form thead>tr{
+    padding: 40px;
+    height: 15vh;
+    background-color: #efefef;
+}
+#empTableBlock{
+    width: 100%;
+}
+#empTableBlock>article{
+    width: 90%;
+    margin: 0 auto;
+}
+#empTableBlock table{
+    background-color: #fff;
+    width: 90%;
+    margin: 0 auto;
+}
+#empTableBlock h1{
+    margin:  0 auto;
+    font-weight: 800;
+    font-size: 35px;
+    color:grey;
+    margin: 20px 10%;
+}
+#empTableBlock table>thead{
+    background-color: var(--bg-base-color);
+    color: white;
+    height: 10vh;
+}
+#empTableBlock table>thead th tr{
+    font-weight: bold;
+    font-size: x-large;
+}
+#empTableBlock table,tr,td,th{
+    padding: 10px;
+    border-collapse: collapse;
+    border: 1px solid #efefef;
+    text-align: center;
+}
+.view-row a,.edit-row a,.delete-row a{
+    padding: 3px 10px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 4px;
+    border-bottom: 1px solid #363a3c;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.view-row a{
+    background-color: #607d8b;
+}
+.edit-row a{
+    background-color: rgb(206, 133, 44);
+}
+.delete-row a{
+    background-color:rgb(86, 164, 56);
+}
+#emp-card{
+    width: 100%;
+    height: 70vh;
+}
+#emp-card>article{
+    margin: 0 auto;
+    width: 50%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    gap:5%;
+}
+#emp-card>article h1{
+    margin:  0 auto;
+    font-weight: 700;
+    font-size: 35px;
+    color:var(--bg-base-color);
+}
+#emp-card>article>aside:first-child{
+    flex-basis: 70%;
+}
+#emp-card>article>aside img{
+    width: 100%;
+    border-radius: 10px;
+}
+#emp-card>article>aside:first-child{
+    flex-basis: 30%;
+}
+.emp-info{
+    margin:10px;
+}
+.emp-info div{
+    display: flex;
+    line-height: 30px;
+    gap: 10%;
+    align-items: flex-start;
+}
+

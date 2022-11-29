@@ -1,0 +1,64 @@
+/* edit Block Page */
+
+.formBlock article {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.formBlock h2 {
+  color: #000aaa;
+  padding: 10px 0;
+  margin: 10px 0;
+  font-size: 3em;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.formBlock form {
+  background: #fff;
+  padding: 20px;
+  width: 400px;
+}
+.formBlock form label {
+  width: 100%;
+  display: block;
+  padding: 10px 0;
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.formBlock form input[type="text"],
+.formBlock form select {
+  width: 100%;
+  padding: 10px 0;
+  border-radius: 4px;
+  border: 1px solid #eee;
+}
+
+.formBlock form input[type="radio"] {
+  margin: 0 6px;
+}
+
+.formBlock form button {
+  width: 100%;
+  padding: 12px 20px;
+  background: var(--bg-base-color);
+  color: #fff;
+  border: 1px solid var(--bg-base-color);
+  margin: 20px 0;
+  border-radius: 4px;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.formBlock form button:hover {
+  background: #fff;
+  color: var(--bg-base-color);
+  border: 1px solid var(--bg-base-color);
+}

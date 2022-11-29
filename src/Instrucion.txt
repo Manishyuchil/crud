@@ -1,0 +1,2 @@
+Start te the bachnd folder in this file which serves as a backend (Fake Api)
+start it in cmd prompt using command {json-server --watch filename.json --port=5000}
